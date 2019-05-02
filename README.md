@@ -241,6 +241,16 @@ plt.title('Three Point Pct for Game vs Win/Loss', fontsize=16);
 ![png](README_files/README_56_0.png)
 
 
+# Recommendations
+
+As we could see, points in the end had the biggest impact on the outcome of a game, but once we got past the total number of points, we could further see how assists and shooting percentage are good predictors of a teams offense.
+
+For offense I would recommend focusing on ball movement because assists is one of the key features in predicting wins. When there is a high number of assists a team is more likely to win. This is to due to the fact that assits leads to points, which leads to wins. For defense, I would focus on boxing out and rebounding. Rebounding was the biggest contributor on the defensive end so it is key to rebound effectively on defense. One way to do this is by boxing out. This helps leads to wins because it stops the offense from scoring. Those are some general recommendations, but to be able to use this most effectively, you'll want to test the data for a specific team, i.e. you as well as your opponents. This will better help you see how to match up and how you can stop them. 
+
+# Next Steps
+
+The next steps I would take with this data set is to run it for spcific teams like I mentioned before. This information is a good way to have a general overview of the sport, but to really see how your team and oppenents stack up you would want to see your specific results and what works best for your team. I also think it would be interesting to factor in the offensive and defensive rankings of each team. I think this would especially benefit defensive infomration because there are fewer features. I also think it would be beneficial to look into where this shots are being taken and create a shot map. A "two point" shot is very vague because it could be as simple as a layup or as difficult as having one foot on the three point line. I think mapping out the shots will give even better insight to how it effects the outcome of a game.
+
 
 ```python
 
